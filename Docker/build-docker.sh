@@ -15,6 +15,6 @@ docker rm -vf batch-example
 # Creamos la imagen
 docker build -t mars/batch:v$1 .
 
-# Creamos el contenedor
+# Creamos el contenedor a partir de la imagen creada.
 docker run -d -p 9000:8080 --name batch-example mars/batch:v$1
 docker ps -a
