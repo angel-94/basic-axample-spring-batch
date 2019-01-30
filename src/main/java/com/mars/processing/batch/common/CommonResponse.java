@@ -1,5 +1,6 @@
 package com.mars.processing.batch.common;
 
+import io.swagger.annotations.ApiModelProperty;
 import org.springframework.http.HttpStatus;
 
 /**
@@ -10,10 +11,22 @@ import org.springframework.http.HttpStatus;
  */
 public class CommonResponse {
 
+    @ApiModelProperty(position = 1, notes = "Mensaje informativo del proceso de cargas.")
     private String message;
+
+
+    @ApiModelProperty(position = 1, notes = "Descripción del causa de error.")
     private String cause;
+
+
+    @ApiModelProperty(position = 1, notes = "Estatus de la petición.")
     private HttpStatus status;
+
+
+    @ApiModelProperty(position = 1, notes = "")
     private boolean success;
+
+
 
 
     public CommonResponse() {
