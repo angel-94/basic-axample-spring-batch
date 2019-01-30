@@ -15,15 +15,15 @@ public class CommonResponse {
     private String message;
 
 
-    @ApiModelProperty(position = 1, notes = "Descripción del causa de error.")
+    @ApiModelProperty(position = 2, notes = "Descripción del causa de error.")
     private String cause;
 
 
-    @ApiModelProperty(position = 1, notes = "Estatus de la petición.")
+    @ApiModelProperty(position = 3, notes = "Estatus de la petición.")
     private HttpStatus status;
 
 
-    @ApiModelProperty(position = 1, notes = "")
+    @ApiModelProperty(position = 4, notes = "")
     private boolean success;
 
 
