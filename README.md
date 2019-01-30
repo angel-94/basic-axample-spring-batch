@@ -1,4 +1,4 @@
-# basic-axample-spring-batch
+# basic-example-spring-batch
 Ejemplo básico con spring batch
 
 
